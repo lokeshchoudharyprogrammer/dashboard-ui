@@ -1,38 +1,132 @@
-.App {
-  text-align: center;
+/* SearchBox.css */
+body {
+  font-family: "Poppins";
+  background: var(--Primary-Black, #1F2129);
+  color:white
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.search-container {
+  width: 289px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 12px;
+
+  border-radius: 26px;
+  background: #101215;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.search-icon {
+  margin-right: 8px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.search-input {
+  border: none;
+
+  outline: none;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.28px;
+  flex: 1;
+  color: var(--Primary-White, #fefefe);
+
+  border-radius: 26px;
+  background: #101215;
+}
+
+
+
+
+
+/* CreateProjectButton.css */
+.create-button {
+
+
+  background-color: rgba(63, 162, 104, 1);
+  /* Button background color */
+  color: white;
+  /* Button text color */
+  border: none;
+  border-radius: 30px;
+  padding: 16px;
+
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.plus-icon {
+  margin-right: 8px;
+  /* Spacing between the icon and text */
+  font-size: 20px;
+  /* Icon size */
+}
+
+
+
+
+
+
+
+
+
+/* NestedBoxComponent.css */
+.outer-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 304px;
+  height: 150px;
+  border: 1px solid #ccc;
+  margin-top: 23px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(10.399999618530273px);
+  gap: 23px;
+}
+
+.inner-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.heading-box {
+  font-size: 18px;
+  font-weight: bold;
   display: flex;
   flex-direction: column;
+  gap: 9px;
   align-items: center;
+}
+
+.user-icon-box {
+  background-color: rgba(63, 162, 104, 1);
+  font-size: 24px;
+  color: rgba(63, 162, 104, 1);
+  /* Customize the icon color as needed */
+  border: 1px solid;
+  padding: 22px;
+  padding-right: 15px;
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.user-icon {
+  margin-right: 8px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.main-outer-box {
+  display: flex;
+  justify-content: space-around;
 }
