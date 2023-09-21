@@ -82,9 +82,7 @@ export const NavBar = () => {
           </div>
         </div>
       </div>
-      <div className="content">
-
-      </div>
+     
     </div>
   )
 }
