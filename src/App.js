@@ -2,12 +2,12 @@ import "@fontsource/poppins"; // Defaults to weight 400
 import "@fontsource/poppins/400.css"; // Specify weight
 import "@fontsource/poppins/400-italic.css"; // Specify weight and style
 import './App.css';
-import { Sidebar } from "./components/SideBar"
+import { Dashboard } from "./components/Dashboard";
 
 function App() {
   return (
     <>
-      <Sidebar />
+      <Dashboard />
     </>
   );
 }
