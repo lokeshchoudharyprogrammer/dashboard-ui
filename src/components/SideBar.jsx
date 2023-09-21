@@ -29,7 +29,7 @@ const SideBar = () => {
 
         <NavBar />
         <div style={{ width: "76%" }} >
-          <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", gap: "19px", justifyContent: "space-between", marginLeft: "14px", marginTop: "12px" }}>
+          <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", gap: "19px", justifyContent: "space-between", marginLeft: "25px", marginTop: "12px" }}>
 
             <div className="search-container">
               <RiSearchLine color="white" className="search-icon" />
@@ -142,7 +142,7 @@ const SideBar = () => {
             justifyContent: "space-around",
             marginTop: "32px",
             gap: "23px",
-            marginLeft: "110p,,x"
+            marginLeft: "110px"
           }} className="cards">
             <div
               className='mainbox'
