@@ -142,7 +142,7 @@ const SideBar = () => {
             justifyContent: "space-around",
             marginTop: "32px",
             gap: "23px",
-            marginLeft: "110px"
+            marginLeft: "110px,,"
           }} className="cards">
             <div
               className='mainbox'
